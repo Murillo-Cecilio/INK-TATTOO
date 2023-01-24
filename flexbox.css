@@ -1,0 +1,113 @@
+header {
+    display: flex;
+}
+
+.caixa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.caixa nav {
+    display: flex;
+    font-size: 45px;
+    flex-direction: row;
+}
+
+.contato-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 4%;
+    
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+}
+
+.video {
+    display: flex;
+    align-items: initial;
+    padding: 0;
+    margin:2em 0.2em;
+    width: 100%;
+}
+
+.mapa-conteudo{
+    display: flex;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin:0 5px;
+    align-items: center;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    margin:0 3em;
+    text-align: center;
+    align-items: center;
+}
+
+.principal p {
+    margin:2em;
+}
+
+.botao {
+    padding: 0;
+    flex-grow: 1;
+    width: 20%;
+    text-align: center;
+}
+
+.input-padrao {
+    width: 85%;
+    height: 3.5em;
+    padding: 0;
+    font-weight: bold;
+}
+
+.enviar{
+    width: auto;
+}
+
+select {
+    width: 10em;
+    height: 3em;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    background: url("img/background.jpeg");
+}
+
+@media screen and (min-width:1024px){
+    .video {
+        margin-left: 20%;
+    }
+
+    .mapa-conteudo {
+        width: 50em;
+        margin: 10%;
+        align-items: center;
+        flex-direction: row;
+    }
+}
