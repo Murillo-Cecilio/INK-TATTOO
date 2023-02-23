@@ -1,10 +1,9 @@
 body {
 	background-image:url("bg.jpg");
+	width: 100vw;
 }
 #banner {
-	width:90%;
-	margin:0 5% 0;
-
+	width:100vw;
 }
 
 .principal {
@@ -60,7 +59,7 @@ h2 {
 ul {
 	display: inline-block;
 	vertical-align: top;
-	width: 20%;
+	width: 20vw;
 	margin-right: 15%;
 }
 
