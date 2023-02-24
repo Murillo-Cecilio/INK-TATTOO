@@ -12,17 +12,22 @@
 
 <body>
 	<header>
-		<div class="caixa">
-			<h1><img src="img/logo.jpg"></h1>
-
-			<nav>
-				<ul>
-					<li><a href="index.html" class="header-link">Home</a></li>
-					<li><a href="produtos.html" class="header-link">Produtos</a></li>
-					<li><a href="contato.html" class="header-link">Contato</a></li>
+		<section class="header">
+			<a href="https://api.whatsapp.com/send?phone=5511942828345" class="logo">Whatsapp AQUI! &#x1F448;</a>
+			<nav class="nav">
+				<button class="btn-menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu"
+					aria-expanded="false">
+					Menu<span class="hamburger"></span>
+				</button>
+				<input type="checkbox" id="checkbox" class="checkbox" />
+				<label for="checkbox" class="label-menu">Menu<span class="hamburger"></span></label>
+				<ul class="menu" id="menu" role="menu">
+					<li><a href="index.html" class="menu-link">Início</a></li>
+					<li><a href="contato.html" class="menu-link">Contato</a></li>
+					<li><a href="produtos.html" class="menu-link">Artes</a></li>
 				</ul>
 			</nav>
-		</div>
+		</section>
 	</header>
 
 	<main class="contato-main">
@@ -52,7 +57,7 @@
 			</div>
 			<fildset class="formula">
 				<legend>Qual horario prefere ser atendido?</p>
-					<select>
+					<select class="option">
 						<option>Manhã</option>
 						<option>Tarde</option>
 						<option>Noite</option>

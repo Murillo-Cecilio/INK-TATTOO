@@ -116,7 +116,10 @@ form label, form legend {
 	display: block;
 	margin: 0 0 20px;
 	padding:10px 25px;
-	width:50%;
+	width:80vw;
+	align-items: center;
+	margin: 0 auto;
+
 }
 
 .checkbox {
@@ -191,6 +194,9 @@ td,th {
 	font-weight: 800;
 	width: 90vw;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .principal p {
@@ -292,7 +298,21 @@ td,th {
 .header-mobile {
 	display: none;
 }
+.contato-main {
+	display: flex;
+	flex-direction: column;
+	height: 90%;
+	font-size: larger;
+	justify-content: center;
+	margin-bottom: 60em;
 
+}
+
+.option {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
 /* @media screen and (max-width: 480px) {
 	#banner, .principal, .conteudo-beneficios, .mapa-conteudo, .video, main {
 		width:130vh;
@@ -349,14 +369,7 @@ td,th {
 		width:auto;
 	}
 
-	.contato-main {
-		height: 90%;
-		font-size: larger;
-		display: flex;
-		width: auto;
-		justify-content: space-around;
-		margin-bottom: 60em;
-	}
+
 
 	.form {
 		max-width: 480px;
