@@ -301,6 +301,10 @@ td,th {
 	position: relative;
 }
 
+.header-mobile {
+	display: none;
+}
+
 /* @media screen and (max-width: 480px) {
 	#banner, .principal, .conteudo-beneficios, .mapa-conteudo, .video, main {
 		width:130vh;
