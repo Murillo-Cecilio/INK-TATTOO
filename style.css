@@ -304,8 +304,12 @@ td,th {
 	height: 90%;
 	font-size: larger;
 	justify-content: center;
-	margin-bottom: 60em;
+	
 
+}
+
+label,table {
+	margin-bottom: 20px;
 }
 
 .option {
