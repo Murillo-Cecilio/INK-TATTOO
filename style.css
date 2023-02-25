@@ -317,6 +317,10 @@ label,table {
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
+
+.produtos-img {
+	width: 70vw;
+}
 /* @media screen and (max-width: 480px) {
 	#banner, .principal, .conteudo-beneficios, .mapa-conteudo, .video, main {
 		width:130vh;
