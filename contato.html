@@ -3,11 +3,13 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Contato - AVATAR INK TATOO</title>
-	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="header.css">
+	<link rel="stylesheet" href="estilos/reset.css">
+	<link rel="stylesheet" href="estilos/style.css">
+	<link rel="stylesheet" href="estilos/contato.css">
+	<link rel="stylesheet" href="estilos/header.css">
+	<script defer src="estilos/app.js"></script>
 </head>
 
 <body>
@@ -30,73 +32,17 @@
 		</section>
 	</header>
 
-	<main class="contato-main">
-		<form>
-			<label for="nomesobrenome">Nome e sobrenome</label>
-			<input type="text" id="nomesobrenome" class="input-padrao" required>
-
-			<label for="email">Email</label>
-			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
-
-			<label for="telefone">Telefone</label>
-			<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)+Numero">
-
+	<main>
+		<form action="https://formsubmit.co/ajax/nickolas@tigercodes.com.br" method="POST" data-form>
+			<label for="nome">Nome</label>
+			<input type="text" name="nome" id="nome" required />
+			<label for="email">E-mail</label>
+			<input type="email" name="email" id="email" required />
 			<label for="mensagem">Mensagem</label>
-			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
-			<div>
-				<p>Como Prefere nosso contato?</p>
-				<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-
-				<label for="radio-telefone"><input type="radio" name="contato" value="telefone"
-						id="radio-telefone">Telefone</label>
-
-
-				<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
-						checked>Whatsapp</label>
-
-			</div>
-			<fildset class="formula">
-				<legend>Qual horario prefere ser atendido?</p>
-					<select class="option">
-						<option>Manhã</option>
-						<option>Tarde</option>
-						<option>Noite</option>
-					</select>
-					</fieldset>
-					<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
-						E-mail?
-					</label>
-					<input type="submit" value="Enviar Formulário" class="enviar">
+			<textarea name="mensagem" id="mensagem" required></textarea>
+			<button type="submit" data-button class="btn-msg">Enviar</button>
 		</form>
-
-		<table>
-			<thead>
-				<tr>
-					<th>Dia</th>
-					<th>Horário</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Segunda</td>
-					<td>8h ~ 20h</td>
-				</tr>
-				<tr>
-					<td>Quarta</td>
-					<td>8h ~ 20h</td>
-				</tr>
-				<tr>
-					<td>Sexta</td>
-					<td>8h ~ 20h</td>
-				</tr>
-			</tbody>
-		</table>
 	</main>
-
-	<footer class="rodape">
-		<img src="img/rodape.png" width="100vw">
-		<p class="copyright">&copy; AVATAR INK TATOO</p>
-	</footer>
 </body>
 
 </html>
